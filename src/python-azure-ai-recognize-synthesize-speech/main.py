@@ -71,6 +71,7 @@ def TellTime():
     )  # Create synthesizer
 
     # Synthesize spoken output
+    # https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=stt
     responseSsml = " \
         <speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' \
             xml:lang='es-CO'> \
